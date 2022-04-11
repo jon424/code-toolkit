@@ -209,7 +209,6 @@ Link to [CodePen](https://codepen.io/jon424/pen/NWwReEJ?editors=1111) example.
       color: white;
       font-size: 4rem;
       text-align: center;
-/*       position: sticky; */
       margin: auto;
       height: 100px;
       width: 100px;
