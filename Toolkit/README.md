@@ -1,94 +1,11 @@
-## Heading h2
-<br>
-
-### Heading h3
-<br>
-
-#### Heading h4
-<br>
-<hr>
+# Toolkit
+Need a description here...
 
 This is **bold** and this is _italic_.
-<hr>
-This is ***bold and italic***.
-<hr>
 <br>
 <br>
 
-# Code Collection
-
-
-Link to [Google](https://www.google.com/).
-
-</details>
-</details>
-
-<br>
-<details>
-<summary markdown="span">HTML</summary>
-**Lorem ipsum dolor sit amet...**
-</details>
-
-<br>
-<details>
-<summary markdown="span">CSS</summary>
-**Lorem ipsum dolor sit amet...**
-</details>
-
-<br>
-<details>
-<summary markdown="span">JavaScript</summary>
-
-```js
-function = () => {
-    console.log('sup world?');
-
-```
-</details>
-</details>
-<br>
-<br>
-<hr>
-
-
-## image with caption
-![Semantic description of image](https://picsum.photos/200/300)
- ***Caption for the image***
-
-<br>
-
-![Tux, the Linux mascot](https://picsum.photos/400/302)
-
-<img src="https://picsum.photos/400/305" alt="drawing" width="100%"/>
-<br>
-
- <center>***Caption for the image***</center>
-
-
-<br>
-
-## clickable image
-
-[![Semantic description of image](https://picsum.photos/200/307)*My caption*][about.gitlab.com]
-
-
-Paragraph:
-
-- Item 1
-- Item 2
-- Item 3
-   - Sub item 1
-   - Sub item 2
-- Item 4
-
-
-
-
-
-
-
-
-# Code Collection
+# JavaScript
 
 ## Color Interpolator
 
