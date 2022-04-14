@@ -282,6 +282,61 @@ Link to [CodePen](https://codepen.io/jon424/pen/NWwReEJ?editors=1111) example.
 <br>
 <br>
 <hr>
+
+## Preload Images
+
+Preload images in browser for optimized performance.
+
+
+
+Link to [CodePen](https://codepen.io/jon424/pen/jOYewJy?editors=1111) example.
+
+</details>
+</details>
+
+<br>
+<details>
+<summary markdown="span">HTML</summary>
+
+```html
+<div id="body">
+</div>
+```
+</details>
+
+<br>
+<details>
+<summary markdown="span">JavaScript</summary>
+
+```js
+const preloadImages = (urls) => {
+    const preloadImage = (url) => {
+        const img = new Image();
+        img.src = url;
+        img.style.display = 'none';
+    };
+    urls.forEach(url => preloadImage(url));
+}
+
+const urlCollection = [
+    "https://picsum.photos/id/237/200/300", "https://picsum.photos/id/238/200/300", "https://picsum.photos/id/239/200/300", "https://picsum.photos/id/240/200/300"
+];
+
+preloadImages([...urlCollection]);
+
+const images = [];
+for (let i = 0; i < urlCollection.length; i++) {
+    let image = document.createElement("img");
+    image.src = urlCollection[i];
+    images.push(image);
+    document.body.append(image);
+}
+```
+</details>
+</details>
+<br>
+<br>
+<hr>
 here are some:
 
 - list items
