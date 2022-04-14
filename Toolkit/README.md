@@ -295,7 +295,7 @@ Link to [CodePen](https://codepen.io/jon424/pen/jOYewJy?editors=1111) example.
 </details>
 
 <br>
-<details>
+<details open>
 <summary markdown="span">HTML</summary>
 
 ```html
@@ -305,7 +305,7 @@ Link to [CodePen](https://codepen.io/jon424/pen/jOYewJy?editors=1111) example.
 </details>
 
 <br>
-<details>
+<details open>
 <summary markdown="span">JavaScript</summary>
 
 ```js
